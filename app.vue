@@ -47,6 +47,9 @@
 </template>
 
 <script setup lang="ts">
+// Import global CSS
+import '~/assets/css/main.css'
+
 useHead({
   title: 'Game Collector - Nuxt SSR Demo',
   meta: [
